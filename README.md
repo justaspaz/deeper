@@ -35,12 +35,11 @@ git clone https://github.com/justaspaz/deeper.git
 - Handles **HTTP requests**.
 - Calls the **service layer** to process data.
 - Exposes **REST endpoints** for clients.
----
+
 
 ### **Service Layer (`IntersectionService`)**
 - Contains **core business logic**.
 - Calculates **intersections between a line and a square**
----
 
 ### **Security (`SecurityConfig`)**
 - **Enables Basic Authentication** for `/stats/system-stats`.
@@ -63,5 +62,19 @@ git clone https://github.com/justaspaz/deeper.git
 ```bash
 curl -u admin:password -X GET http://localhost:8080/stats/system-stats
 ```
+---
+
+## **Spring Boot Dependencies**
+
+## **🚀 Why These Libraries?**
+| **Library** | **Purpose** |
+|------------|------------|
+| `spring-boot-starter` | Core dependency for Spring Boot |
+| `spring-boot-starter-web` | Enables REST API support |
+| `spring-boot-starter-security` | Provides authentication & security |
+| `spring-boot-starter-actuator` | Enables application monitoring |
+| `lombok` | Simplifies Java model creation |
+
+---
 
 
