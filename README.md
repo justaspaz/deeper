@@ -66,7 +66,7 @@ curl -u admin:password -X GET http://localhost:8080/stats/system-stats
 
 ## **Spring Boot Dependencies**
 
-## **🚀 Why These Libraries?**
+## **Why These Libraries?**
 | **Library** | **Purpose** |
 |------------|------------|
 | `spring-boot-starter` | Core dependency for Spring Boot |
